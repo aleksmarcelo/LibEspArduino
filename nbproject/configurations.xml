@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/arduino/Arduino.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="driver" displayName="driver" projectFiles="true">
+        <itemPath>driver/gpio.c</itemPath>
+        <itemPath>driver/gpio.h</itemPath>
+        <itemPath>driver/images.h</itemPath>
+        <itemPath>driver/oleddemo.cpp</itemPath>
+        <itemPath>driver/uart.c</itemPath>
+        <itemPath>driver/uartesp.h</itemPath>
+        <itemPath>driver/user_main.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="arduino" displayName="arduino" projectFiles="true">
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <itemPath>src/arduino/common/noniso.c</itemPath>
+            <itemPath>src/arduino/common/os_type.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="core" displayName="core" projectFiles="true">
+            <logicalFolder name="esp8266" displayName="esp8266" projectFiles="true">
+              <itemPath>src/arduino/core/esp8266/Print.cpp</itemPath>
+              <itemPath>src/arduino/core/esp8266/Print.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/Printable.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/Stream.cpp</itemPath>
+              <itemPath>src/arduino/core/esp8266/Stream.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/WString.cpp</itemPath>
+              <itemPath>src/arduino/core/esp8266/WString.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/cont.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/core_esp8266_main.cpp</itemPath>
+              <itemPath>src/arduino/core/esp8266/core_esp8266_noniso.c</itemPath>
+              <itemPath>src/arduino/core/esp8266/core_esp8266_si2c.c</itemPath>
+              <itemPath>src/arduino/core/esp8266/core_esp8266_wiring.c</itemPath>
+              <itemPath>src/arduino/core/esp8266/core_esp8266_wiring_digital.c</itemPath>
+              <itemPath>src/arduino/core/esp8266/esp8266_peri.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/gpio.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/pgmspace.cpp</itemPath>
+              <itemPath>src/arduino/core/esp8266/pgmspace.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/stdlib_noniso.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/twi.h</itemPath>
+              <itemPath>src/arduino/core/esp8266/wiring_private.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="libraries" displayName="libraries" projectFiles="true">
+            <logicalFolder name="ssd1306" displayName="ssd1306" projectFiles="true">
+              <logicalFolder name="examples" displayName="examples" projectFiles="true">
+                <logicalFolder name="SSD1306ClockDemo"
+                               displayName="SSD1306ClockDemo"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/SSD1306ClockDemo.ino</itemPath>
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/images.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="SSD1306SimpleDemo"
+                               displayName="SSD1306SimpleDemo"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/SSD1306SimpleDemo.ino</itemPath>
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/images.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="SSD1306UiDemo"
+                               displayName="SSD1306UiDemo"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/SSD1306UiDemo.ino</itemPath>
+                  <itemPath>src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/images.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="resources" displayName="resources" projectFiles="true">
+                <itemPath>src/arduino/libraries/ssd1306/resources/DemoFrame1.jpg</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/DemoFrame2.jpg</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/DemoFrame3.jpg</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/DemoFrame4.jpg</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/FontTool.png</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/SPI_version.jpg</itemPath>
+                <itemPath>src/arduino/libraries/ssd1306/resources/xbmPreview.png</itemPath>
+              </logicalFolder>
+              <itemPath>src/arduino/libraries/ssd1306/OLEDDisplay.cpp</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/OLEDDisplay.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/OLEDDisplayFonts.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/OLEDDisplayUi.cpp</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/OLEDDisplayUi.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/README.md</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SH1106.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SH1106Brzo.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SH1106Wire.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SSD1306.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SSD1306Brzo.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SSD1306Spi.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/SSD1306Wire.h</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/UPGRADE-3.0.md</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/library.json</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/library.properties</itemPath>
+              <itemPath>src/arduino/libraries/ssd1306/license</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Time" displayName="Time" projectFiles="true">
+              <logicalFolder name="examples" displayName="examples" projectFiles="true">
+                <logicalFolder name="Processing" displayName="Processing" projectFiles="true">
+                  <logicalFolder name="SyncArduinoClock"
+                                 displayName="SyncArduinoClock"
+                                 projectFiles="true">
+                    <itemPath>src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/SyncArduinoClock.pde</itemPath>
+                    <itemPath>src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/readme.txt</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="TimeArduinoDue"
+                               displayName="TimeArduinoDue"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeArduinoDue/TimeArduinoDue.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeGPS" displayName="TimeGPS" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeGPS/TimeGPS.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeNTP" displayName="TimeNTP" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeNTP/TimeNTP.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeNTP_ESP8266WiFi"
+                               displayName="TimeNTP_ESP8266WiFi"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeNTP_ESP8266WiFi/TimeNTP_ESP8266WiFi.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeRTC" displayName="TimeRTC" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeRTC/TimeRTC.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeRTCLog" displayName="TimeRTCLog" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeRTCLog/TimeRTCLog.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeRTCSet" displayName="TimeRTCSet" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeRTCSet/TimeRTCSet.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeSerial" displayName="TimeSerial" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeSerial/TimeSerial.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeSerialDateStrings"
+                               displayName="TimeSerialDateStrings"
+                               projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeSerialDateStrings/TimeSerialDateStrings.ino</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TimeTeensy3" displayName="TimeTeensy3" projectFiles="true">
+                  <itemPath>src/arduino/libraries/Time/examples/TimeTeensy3/TimeTeensy3.ino</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>src/arduino/libraries/Time/DateStrings.cpp</itemPath>
+              <itemPath>src/arduino/libraries/Time/Readme.txt</itemPath>
+              <itemPath>src/arduino/libraries/Time/Time.cpp</itemPath>
+              <itemPath>src/arduino/libraries/Time/Time.h</itemPath>
+              <itemPath>src/arduino/libraries/Time/TimeLib.h</itemPath>
+              <itemPath>src/arduino/libraries/Time/keywords.txt</itemPath>
+              <itemPath>src/arduino/libraries/Time/library.json</itemPath>
+              <itemPath>src/arduino/libraries/Time/library.properties</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Wire" displayName="Wire" projectFiles="true">
+              <itemPath>src/arduino/libraries/Wire/Wire.cpp</itemPath>
+              <itemPath>src/arduino/libraries/Wire/Wire.h</itemPath>
+              <itemPath>src/arduino/libraries/Wire/keywords.txt</itemPath>
+              <itemPath>src/arduino/libraries/Wire/library.properties</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="tools" displayName="tools" projectFiles="true">
+            <logicalFolder name="sdk" displayName="sdk" projectFiles="true">
+              <logicalFolder name="include" displayName="include" projectFiles="true">
+                <itemPath>src/arduino/tools/sdk/include/ets_sys.h</itemPath>
+                <itemPath>src/arduino/tools/sdk/include/os_type.h</itemPath>
+                <itemPath>src/arduino/tools/sdk/include/osapi.h</itemPath>
+                <itemPath>src/arduino/tools/sdk/include/spi_flash.h</itemPath>
+                <itemPath>src/arduino/tools/sdk/include/user_interface.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="variants" displayName="variants" projectFiles="true">
+            <logicalFolder name="d1" displayName="d1" projectFiles="true">
+              <itemPath>src/arduino/variants/d1/pins_arduino.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="generic" displayName="generic" projectFiles="true">
+              <itemPath>src/arduino/variants/generic/common.h</itemPath>
+              <itemPath>src/arduino/variants/generic/pins_arduino.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>README.md</itemPath>
+    <itemPath>mkesp.mk</itemPath>
+    <itemPath>project.mk</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>docs</Elem>
+    <Elem>src</Elem>
+    <Elem>driver</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/arduino</pElem>
+            <pElem>src/arduino/common</pElem>
+            <pElem>src/arduino/core</pElem>
+            <pElem>src/arduino/libraries</pElem>
+            <pElem>src/arduino/tools</pElem>
+            <pElem>src/arduino/variants</pElem>
+          </incDir>
+          <incFile>
+            <pElem>src</pElem>
+            <pElem>src/arduino</pElem>
+            <pElem>src/arduino/common</pElem>
+            <pElem>src/arduino/core</pElem>
+            <pElem>src/arduino/libraries</pElem>
+            <pElem>src/arduino/tools</pElem>
+            <pElem>src/arduino/variants</pElem>
+          </incFile>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/arduino</pElem>
+            <pElem>src/arduino/common</pElem>
+            <pElem>src/arduino/core</pElem>
+            <pElem>src/arduino/libraries</pElem>
+            <pElem>src/arduino/tools</pElem>
+            <pElem>src/arduino/variants</pElem>
+          </incDir>
+          <incFile>
+            <pElem>src</pElem>
+            <pElem>src/arduino</pElem>
+            <pElem>src/arduino/common</pElem>
+            <pElem>src/arduino/core</pElem>
+            <pElem>src/arduino/libraries</pElem>
+            <pElem>src/arduino/tools</pElem>
+            <pElem>src/arduino/variants</pElem>
+          </incFile>
+        </ccTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/gpio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/images.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/oleddemo.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/uart.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/uartesp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/user_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mkesp.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="project.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/common/noniso.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/arduino/common/os_type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Print.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Printable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Stream.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/WString.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/WString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/cont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_main.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_noniso.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_si2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/esp8266_peri.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/pgmspace.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/pgmspace.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/stdlib_noniso.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/twi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/wiring_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/DateStrings.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Time.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/TimeLib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/SyncArduinoClock.pde"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeArduinoDue/TimeArduinoDue.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeGPS/TimeGPS.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeNTP/TimeNTP.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeNTP_ESP8266WiFi/TimeNTP_ESP8266WiFi.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTC/TimeRTC.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTCLog/TimeRTCLog.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTCSet/TimeRTCSet.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeSerial/TimeSerial.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeSerialDateStrings/TimeSerialDateStrings.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeTeensy3/TimeTeensy3.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/keywords.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/library.json"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/Wire.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/Wire.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/keywords.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplay.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayFonts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayUi.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayUi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/README.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106Brzo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106Wire.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Brzo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Wire.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/UPGRADE-3.0.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/SSD1306ClockDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/SSD1306SimpleDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/SSD1306UiDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/library.json"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/license"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame1.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame2.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame3.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame4.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/FontTool.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/SPI_version.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/xbmPreview.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/ets_sys.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/os_type.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/osapi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/spi_flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/user_interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/d1/pins_arduino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/generic/common.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/generic/pins_arduino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/gpio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/images.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/oleddemo.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/uart.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="driver/uartesp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="driver/user_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mkesp.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="project.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/common/noniso.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/arduino/common/os_type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Print.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Printable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Stream.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/WString.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/WString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/cont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_main.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_noniso.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_si2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/core_esp8266_wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/esp8266_peri.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/pgmspace.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/pgmspace.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/stdlib_noniso.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/twi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/core/esp8266/wiring_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/DateStrings.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Time.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/Time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/TimeLib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/SyncArduinoClock.pde"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/Processing/SyncArduinoClock/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeArduinoDue/TimeArduinoDue.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeGPS/TimeGPS.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeNTP/TimeNTP.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeNTP_ESP8266WiFi/TimeNTP_ESP8266WiFi.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTC/TimeRTC.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTCLog/TimeRTCLog.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeRTCSet/TimeRTCSet.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeSerial/TimeSerial.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeSerialDateStrings/TimeSerialDateStrings.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/examples/TimeTeensy3/TimeTeensy3.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/keywords.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/library.json"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Time/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/Wire.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/Wire.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/keywords.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/Wire/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplay.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayFonts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayUi.cpp"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/OLEDDisplayUi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/README.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106Brzo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SH1106Wire.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Brzo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/SSD1306Wire.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/UPGRADE-3.0.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/SSD1306ClockDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306ClockDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/SSD1306SimpleDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306SimpleDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/SSD1306UiDemo.ino"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/examples/SSD1306UiDemo/images.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/library.json"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/library.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/license"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame1.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame2.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame3.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/DemoFrame4.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/FontTool.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/SPI_version.jpg"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/libraries/ssd1306/resources/xbmPreview.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/ets_sys.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/os_type.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/osapi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/spi_flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/tools/sdk/include/user_interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/d1/pins_arduino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/generic/common.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/arduino/variants/generic/pins_arduino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
