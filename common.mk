@@ -10,7 +10,7 @@ FW_BASE		= firmware
 LIB_DIR		= lib
 
 #irom0Text address
-addrw = 0x40000  #Take a look at SDK_BASE/ld/eagle.flash.bin
+addrw = 0x20000  #Take a look at SDK_BASE/ld/eagle.flash.bin
 
 # linker script used for the above linkier step
 LD_SCRIPT ?= eagle.app.v6.ld

@@ -5,7 +5,7 @@
 TARGET  = espbin
 #Will be used to load the correct pins_arduino 
 BOARD   = d1
-PORT    = COM10
+PORT    = COM3
 
 #Compiler
 CTAGS_PRJ    =

@@ -47,7 +47,7 @@ ICACHE_FLASH_ATTR void displayTask(void *pvParameters) {
   setupOLED();
   
   while (1) {
-//    vTaskDelay(10 / portTICK_RATE_MS);
+    vTaskDelay(100 / portTICK_RATE_MS);
     displayInit();
   }
   
